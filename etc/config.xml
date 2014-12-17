@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <JS_ImportExport>
+            <version>0.1.0</version>
+        </JS_ImportExport>
+    </modules>
+    <global>
+        <models>
+            <importbookableproducttype>
+                <class>JS_ImportExport_Model</class>
+            </importbookableproducttype>
+        </models>
+        <importexport module="importexport">
+            <import_product_types>
+                <bookable>importbookableproducttype/import_entity_product_type_bookable</bookable>
+            </import_product_types>
+        </importexport>
+    </global>
+</config>
